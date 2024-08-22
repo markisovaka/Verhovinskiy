@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+
+    max-width: 1000px;
+    max-width: 1000px;
+    font-family: "Inter", sans-serif;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: "krona One", sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100px;
+    margin: 200px 0;
+}
+
+#read-more-link {
+    border: solid 2px black;
+    padding: 20px 30px;
+    border-radius: 100px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+
+}
+
+#read-more-link:hover {
+    background-color: black;
+    color: azure;
+}
+
+#description {
+    width: 400px;
+    font-size: larger;
+    float: right;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+nav ul {
+    display: inline-block;
+
+    margin: 0;
+}
+
+nav {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 1000px;
+    top: 0;
+}
+
+#main-link {
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+#texture {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 750px;
+    object-fit: cover;
+    mix-blend-mode: overlay;
+}
+
+h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 80px;
+}
+
+#about-me p {
+    font-size: 25px;
+    width: 400px;
+    float: right;
+    margin: 190px 0;
+}
+
+#about-me img {
+    height: 500px;
+}
+
+.background {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+#main .background {
+    top: 0;
+    height: 750;
+    background: linear-gradient(red, rgb(29, 57, 242));
+    overflow-x: hidden;
+    margin: 0 auto;
+
+
+}
+
+#about-me .background {
+    top: 750px;
+    background-color: rgb(29, 57, 242);
+    height: 1080px;
+}
+
+#skills .background {
+    top: 1488px;
+    height: 2228px;
+    background: linear-gradient(rgb(20, 42, 190), rgb(20, 42, 190));
+
+}
+
+#skills {
+    color: antiquewhite;
+    padding: 228px 0
+}
+
+#skills h2 {
+    text-align: right;
+}
+
+#skills figure {
+    display: inline-block;
+    width: 300px;
+    margin: 0;
+    margin-right: 30px;
+}
+
+#skills figure img {
+    height: 250;
+    margin-bottom: 30px;
+}
+
+#skills figure figcaption {
+    font-size: 20px;
+}
+
+#project .background {
+    top: 2450px;
+    height: 800px;
+    background-color: aqua;
+}
+
+#project p {
+    width: 50%;
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+#project .gallery {
+    float: right;
+    width: 50%;
+}
+
+#project .gallery img {
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 40px;
+}
+
+#project {
+    padding: 50px 0;
+}
+
+#hov .background {
+    top: 3250px;
+    height: 950px;
+    background: linear-gradient(rgb(20, 42, 190), rgb(20, 42, 190));
+
+}
+
+#hov {
+    color: azure;
+    padding: 300px 0;
+}
+
+#hov img {
+    position: absolute;
+}
+
+#hov h2 {
+    text-align: center;
+}
+
+#hov ol {
+    font-size: larger;
+    list-style-type: none;
+    counter-reset: num;
+}
+
+#hov ol li {
+    position: relative;
+    margin: 0;
+    padding: 0 0 10px 70px;
+
+}
+
+#hov ol li:nth-child(even) {
+    right: -50%;
+}
+
+#hov ol li:before {
+    content: counter(num);
+    counter-increment: num;
+    border: 15px solid wheat;
+    border-radius: 50%;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: -30px;
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 60px;
+    opacity: 52%;
+
+
+}
+
+#hov img {
+    position: absolute;
+    padding-left: 100px;
+    padding-top: 250px;
+    width: 820px;
+    height: 400px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
